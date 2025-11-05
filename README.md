@@ -18,6 +18,7 @@ The application allows two clients to connect to a central server and exchange t
 * 🖥️ **Client–Server Communication** using Java Sockets
 * 💬 **Real-Time Messaging** between connected clients
 * 🧑‍💻 **User Interface** built using Java Swing
+* 🧵 **Multithreading: Each client connection runs on a separate thread for concurrent communication.**
 * 🚫 **Basic Validation & Connection Handling**
 * ⚡ **Lightweight and Platform Independent**
 
@@ -27,7 +28,7 @@ The application allows two clients to connect to a central server and exchange t
 
 * **Language:** Java
 * **Concepts:** Socket Programming, Streams and Javax , basic UI development
-* **UI Toolkit:** Java Swing / AWT
+* **UI Toolkit:** Java Swing / AWT.
 
 ---
 
@@ -74,6 +75,7 @@ The application allows two clients to connect to a central server and exchange t
 * **Socket Programming:** Establishes TCP connections between clients and the server.
 * **I/O Streams:** Uses InputStream and OutputStream for message transmission.
 * **Event Handling:** Java Swing components handle user input and message display.
+* **Multithreading:** Each client connection runs on a separate thread for concurrent communication.
 
 ---
 
