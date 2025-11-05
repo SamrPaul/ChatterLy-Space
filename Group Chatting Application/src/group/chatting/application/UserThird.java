@@ -19,7 +19,7 @@ public class UserThird implements ActionListener, Runnable {
     
     BufferedReader reader;
     BufferedWriter writer;
-    String name = "Babblu Bhaiya";
+    String name = "Samriddhi";
     
     UserThird() {
         
@@ -209,3 +209,4 @@ public class UserThird implements ActionListener, Runnable {
         t1.start();
     }
 }
+
