@@ -19,7 +19,7 @@ public class UserOne implements ActionListener, Runnable {
     
     BufferedReader reader;
     BufferedWriter writer;
-    String name = "Kaleen Bhaiya";
+    String name = "Karen";
     
     UserOne() {
         
@@ -209,3 +209,4 @@ public class UserOne implements ActionListener, Runnable {
         t1.start();
     }
 }
+
