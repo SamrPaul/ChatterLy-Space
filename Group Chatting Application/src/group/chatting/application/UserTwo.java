@@ -19,7 +19,7 @@ public class UserTwo implements ActionListener, Runnable {
     
     BufferedReader reader;
     BufferedWriter writer;
-    String name = "Guddu Bhaiya";
+    String name = "Cristal";
     
     UserTwo() {
         
@@ -78,7 +78,7 @@ public class UserTwo implements ActionListener, Runnable {
         name.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
         p1.add(name);
         
-        JLabel status = new JLabel("Guddu, Kaleen, Bablu, Sweety, IG Dubey, Shukla");
+        JLabel status = new JLabel(Cristal, Kaleen, Samriddhi, Sweety, IG Dubey, Shukla");
         status.setBounds(110, 35, 160, 18);
         status.setForeground(Color.WHITE);
         status.setFont(new Font("SAN_SERIF", Font.BOLD, 14));
@@ -209,3 +209,4 @@ public class UserTwo implements ActionListener, Runnable {
         t1.start();
     }
 }
+
